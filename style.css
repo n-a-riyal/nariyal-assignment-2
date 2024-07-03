@@ -1,0 +1,899 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+display: inline-block;
+color: black;
+}
+h1 a{
+  text-decoration: none;
+display: inline-block;
+color: black;
+}
+.clear{
+    clear: both;
+}
+.main{
+    display: flex;
+}
+.manu_bar{
+width: 25%;
+
+text-align: center;
+
+}
+.manu_bar h1{
+    padding: 2px 20px;
+    margin: 0 40px;
+    text-align: center;
+    
+    text-transform: uppercase;
+line-height: 60px;
+
+}
+.manu_bar .rewal{
+    margin: 225px 0px 0px 6px;
+   font-size: 50px;
+    font-weight: 1000;
+    letter-spacing: px;
+    position: fixed;
+    font-family: "Playwrite ES Deco", cursive;
+    
+}
+
+.manu_bar .manu{
+    margin-top: 350px;
+    position: fixed;
+}
+.divider{
+    width: 5%;
+}
+.divider #lef{
+  position: fixed;
+    margin-top: 20px;
+    transform: scale(3);
+    -webkit-transform: scale(3);
+    -moz-transform: scale(3);
+    -ms-transform: scale(3);
+    -o-transform: scale(3);
+}
+.divider .line{
+    width: 4px;
+    height: 900px;
+    margin-top: 100px;
+    background-color: black;
+    position: fixed;
+}
+#rewall:hover .home{
+    background-color: yellow;
+}
+/* section 1 start */
+.details{
+ width: 73%;
+    height: 1000px;
+overflow-y: scroll;
+overflow-x: hidden;
+}
+.detail #sec-1{
+    float: left;
+}
+.details #edit{
+    float: left;
+}
+.details #edit{
+    
+    width: 25px;
+    height: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.details #edit i{
+   background-color: yellow;
+   color: yellowgreen;
+  width: 100px;
+   position: fixed;
+   border-radius: 50%;
+   padding: 8px;
+   margin-top: 20px;
+   
+}
+.details h1{
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    letter-spacing: 2px;
+   
+   
+}
+/* .details h1::after{
+position: absolute;
+content: '';
+width: 100px;
+height: 5px;
+top: 100%;
+left: 40%;
+background-color: black; */
+
+
+.my_pic{
+    padding: 30px 0;
+   background-color: rgb(145, 157, 160);
+    margin: 0px 42px 0 42px;
+    border-radius: 50%;
+}
+.some_text{
+    padding-left: 10px;
+    margin-top: 150px;
+    width: 400px;
+}
+.some_text img{
+    width: 180px;
+    height: 40px;
+    margin: 20px;
+}
+.pic{
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+}
+#rewall .page{
+    margin:376px 0 300px 0 ;
+}
+#rewall .profe{
+    font-size: 60px;
+}
+#rewall .unline{
+    margin: 40px 0;
+    width: 200px;
+    height: 10px;
+    background-color: black;
+}
+#rewall p{
+    font-size: 30px;
+    font-weight: 500;
+}
+/* section 1 end */
+.sec-break{
+    width: 85%;
+    height: 5px;
+    background: black;
+    float: left;
+}
+#down{
+    
+    transform: scale(3)!important;
+    -webkit-transform: scale(3)!important;
+    -moz-transform: scale(3)!important;
+    -ms-transform: scale(3)!important;
+    -o-transform: scale(3)!important;
+    float: left;
+    margin-left: 100px;
+}
+   /* baiography start */
+   
+
+
+.details .h1{
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+}
+.details #baiography .baio{
+    margin-top: 250px;
+   
+}
+.details #baiography .h1::after{
+    position: absolute;
+    content: "";
+    left: 35%;
+    width: 260px;
+    height: 5px;
+    top: 120%;
+    background-color: black;
+}
+.details #baiography .baio p{
+    margin-top: 100px;
+    text-align: center;
+    padding: 0 100px;
+}
+.details #baiography .my-info{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        /*justify-content: space-around;
+        */flex-wrap: wrap;
+        padding-top: 50px;
+        /* align-items:; */
+        gap: 10px;
+        transition:.4s;
+        -webkit-transition:.4s;
+        -moz-transition:.4s;
+        -ms-transition:.4s;
+        -o-transition:.4s;
+}
+.details #baiography .my-info p{
+    margin: 0;
+    font-weight: 200;
+}
+.details #baiography .my-info p span{
+    font-weight: 500;
+}
+.details #baiography .my-info a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+   
+    text-transform:lowercase ;
+}
+.details #baiography .my-info .info-de{
+    border: 3px solid black;
+    border-radius: 40px;
+    padding: 5px 5px;
+    text-transform: uppercase;
+    background-color: azure;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+.details #baiography .down .uplin{
+    display: flex;
+   align-items: flex-end;
+   justify-content: center;
+gap: 20px;
+
+}
+.details #baiography .down .uplin .lin1{
+    margin-top: 200px;
+width: 2px;
+height: 100px;
+background-color: black;
+}
+.details #baiography .down .uplin .lin2{
+    width: 3px;
+    height: 150px;
+    background-color: black;
+    }
+
+.details #baiography .down .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+.details #baiography .down .icon .icon-s{
+    width: 400px;
+    height: 250px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.details #baiography .down .icon .icon-s a i{
+    font-size: 100px;
+    margin-bottom: 40px;
+    color: green;
+}
+.details #baiography .down .downlin{
+  display: flex;
+ justify-content: center;
+ align-items: flex-start;
+ gap: 20px;
+
+ margin: 0 0 100px 0;
+}
+.details #baiography .down .downlin .lin1{
+width: 2px;
+height: 100px;
+background-color: black;
+}
+.details #baiography .down .downlin .lin2{
+    width: 3px;
+    height: 150px;
+    background-color: black;
+    }
+    .details #baiography .quali{
+        display: flex;
+        margin: 50px 0 50px 0;
+    }
+    .details #baiography .quali h2{
+        margin: 0 80px 0 80px;
+        text-transform: uppercase;
+        position: relative;
+    }
+    .details #baiography .quali a{
+        text-decoration: none;
+        color: black;
+    }
+    .details #baiography .quali a h2::after{
+        content: '';
+        position: absolute;
+        width: 0%;
+        height: 3px;
+        background-color: gold;
+        top: 120%;
+        left: 0%;
+    }
+    .details #baiography .quali a:hover h2::after{
+       width: 100%;
+       transition: all ease-in 1s;
+       -webkit-transition: all ease-in 1s;
+       -moz-transition: all ease-in 1s;
+       -ms-transition: all ease-in 1s;
+       -o-transition: all ease-in 1s;
+}
+    .details #baiography .quali .hline{
+        height: 50px;
+        width: 5px;
+        background-color: black;
+    }
+    .details #baiography .task1{
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: start;
+    }
+    .details #baiography .task1 .ex-text{
+        background-color: rgb(240, 238, 238);
+        width: 60%;
+        padding: 20px;
+        margin: 10px 0 10px 0;
+    }
+    .details #baiography .task1 .ex-text{
+        font-weight: 300;
+        font-size: 25px;
+    }
+    
+    
+    .details #baiography .task2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 30x 0;
+      }
+      .details #baiography .task2 .ed-text{
+        background-color: rgb(240, 238, 238);
+        width: 60%;
+        padding: 20px;
+        margin: 10px 0 10px 0;
+    }
+    .details #baiography .task2 .ed-text{
+        font-weight: 300;
+        font-size: 25px;
+    }
+    .details #baiography .task3{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: end;
+        gap: 10px;
+        margin: 0 0 150px 0;
+      }
+      .details #baiography .task3 .skill1{
+        width: 70%;
+        border: 5px solid black;
+        display: flex;
+      }
+      .details #baiography .task3 .skill1 .per1{
+        width: 550px;
+        height: 50px;
+        margin: 15px 10px 15px 30px;
+      background-color: yellowgreen;
+      }
+      .details #baiography .task3 .skill1 .per1 p{
+       line-height: 50px;
+       padding-left: 10px;
+      }
+      .details #baiography .task3 .skill1 .per2 p{
+        line-height: 50px;
+        padding-left: 10px;
+       }
+       .details #baiography .task3 .skill1 .per3 p{
+        line-height: 50px;
+        padding-left: 10px;
+       }
+       .details #baiography .task3 .skill1 .per4 p{
+        line-height: 50px;
+        padding-left: 10px;
+       }
+      .details #baiography .task3 .skill1 .pe1{
+        font-size: 30px;
+        line-height: 50px;
+        padding-top: 10px;
+        font-weight: 500;
+        color: blue;
+      }
+      .details #baiography .task3 .skill1 .per2{
+        width: 570px;
+        height: 50px;
+        margin: 15px 10px 15px 30px;
+      background-color: yellowgreen;
+      }
+      .details #baiography .task3 .skill1 .per3{
+        width: 570px;
+        height: 50px;
+        margin: 15px 10px 15px 30px;
+      background-color: yellowgreen;
+      }
+      .details #baiography .task3 .skill1 .per4{
+        width: 170px;
+        height: 50px;
+        margin: 15px 10px 15px 30px;
+      background-color: yellow;
+      }
+    /* baiography end */
+       /* portfolio start*/
+       #portfolio .port{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+       }
+       #portfolio .port h1{
+        margin: 150px 0 100px 0;
+        text-transform: uppercase;
+        position: relative;
+       }
+       #portfolio .port h1::after{
+        position: absolute;
+        content: "";
+        left: -10%;
+        width: 240px;
+        height: 5px;
+        top: 120%;
+        background-color: black;
+    }
+       #portfolio .port p{
+        text-align: center;
+       }
+       #portfolio .port button{
+
+        width: 500px;
+    height: 50px;
+    margin: 70px 0 150px 0;
+    border: 2px solid yellow;
+    background-color: yellow;
+    color: blue;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+       }
+       #portfolio .port button:hover{
+        background-color: aquamarine;
+        color: yellow;
+        font-weight: bolder;
+       }
+       #portfolio .img{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin:0 40px 100px 40px;
+       }
+       #portfolio .img .img-details{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+       
+        padding: 10px;
+
+       }
+       #portfolio .img .img-details h2{
+        text-transform: capitalize;
+        font-size: 30px;
+        font-weight: bold;
+        margin: 0;
+        position: relative;
+       }
+       #portfolio .img .img-details h2::after{
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 4px;
+        background-color: yellowgreen;
+        top: 100%;
+        left: 0;
+        
+           }
+       #portfolio .img .img-details p{
+        font-size: 18px;
+        margin: 0%;
+        padding-bottom: 20px;
+       }
+       /* #portfolio .img .img-details .img{
+        width: 360px;
+        height: 360px;
+
+      } */
+       #portfolio .img .img-details  img{
+         width: 360px;
+         height: 360px;
+
+       }
+       #portfolio .img .img-details img:hover{
+        
+}
+
+          /* portfolio end */
+          /* services start */
+          #services{
+            margin: 150px 0;
+          }
+          
+          #services #service{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+          }
+          #services #service h1{
+            margin-bottom: 80px;
+            text-transform: uppercase;
+            text-align: center;
+            position: relative;
+          }
+          #services #service h1::after{
+            position: absolute;
+            content: "";
+            left: 12%;
+            width: 135px;
+            height: 5px;
+            top: 140%;
+            background-color: black;
+          }
+          
+          #services #service p{
+            text-align: center;
+          }
+          #services .boxs .box{
+            width: 80%;
+            margin: 30px;
+            /* height: 500px; */
+            position: relative;
+            background-color: aliceblue;
+          }
+          #services .boxs .space{
+            margin-left: 120px;
+          }
+          #services .boxs .box .up{
+            width: 150px;
+            height: 60px;
+            position: absolute;
+            top: -15px;
+            left: 78%;
+            background-color: yellowgreen;
+          }
+          #services .boxs .box .up p{
+            text-transform: uppercase;
+            font-size: 16px;
+            margin: 0;text-align: center;
+          }
+          #services .boxs .box .up .div1{
+              text-align: center;
+              font-weight: bold;
+              font-size: 20px;
+          }
+          #services .boxs .box .down{
+            width: 700px;
+            position: absolute;
+            top: 99%;
+            height: 2px;
+            background-color: black;
+            margin: 0 40px;
+          }
+          #services .boxs .box .box-text{
+            padding: 50px;
+          }
+          #services .boxs .box .box-text h1{
+            padding-bottom: 20px;
+          }
+           /* services end */
+           /* customer start */
+           #customers .new h1{
+            margin-top: 150px;
+            margin-bottom: 120px;
+            text-transform: uppercase;
+            text-align: center;
+            position: relative;
+           }
+           #customers .new h1::after{
+            position: absolute;
+            content: "";
+            left: 41%;
+            width: 160px;
+            height: 5px;
+            top: 140%;
+            background-color: black;
+           }
+          
+        
+           #customers .logo{
+            display: flex;
+            flex-wrap: wrap;
+            width: 90%;
+            height: 400px;
+            background-color: azure;
+          
+           }
+           #customers .logo div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 25%;
+            height: 50%;
+           }
+           #customers .id{
+            width: 90%;
+            height: 400px;
+            background-color: yellowgreen;
+            margin-bottom: 100px;
+           }
+           #customers .id div{
+            padding: 40px;
+            position: relative;
+           }
+           #customers .id div p{
+            font-size: 25px;
+            padding-bottom: 30px;
+           }
+           #customers .id div h2{
+            text-transform: capitalize;
+           }
+           #customers .id div h4{
+            text-transform: uppercase;
+           }
+           #customers .id div #left{
+            width: 30px;
+            height: 20px;
+            position: absolute;
+            top: 93%;
+            left: 86%;
+            transform: scale(3);
+           }
+           #customers .id div #right{
+            width: 30px;
+            height: 20px;
+            position: absolute;
+            top: 93%;
+            left: 93%;
+            transform: scale(3);
+            -webkit-transform: scale(3);
+            -moz-transform: scale(3);
+            -ms-transform: scale(3);
+            -o-transform: scale(3);
+}
+
+           /* customers end */
+          /* news and tips start */
+          #news-tips .new h1{
+            margin-top: 150px;
+            margin-bottom: 120px;
+            text-transform: uppercase;
+            text-align: center;
+            position: relative;
+          }
+          #news-tips .new h1::after{
+            position: absolute;
+            content: "";
+            left: 38%;
+            width: 210px;
+            height: 5px;
+            top: 140%;
+            background-color: black;
+           }
+          #news-tips .news{
+            display: flex;
+            
+          }
+          #news-tips .news .img{
+            width: 50%;
+            margin: 10px;
+          }
+          #news-tips .news .text{
+            width: 50%;
+            padding: 20px 100px 0 0;
+          }
+          #news-tips .news .img img{
+            width: 400px;
+            height:400px ;
+          }
+          #news-tips .news .text h2{
+            
+          }
+        
+          #news-tips .news .text h2 a{
+            text-decoration:underline yellowgreen;
+            color: black;
+            height: 50px;
+            line-height: 60px;
+            font-size: 35px;
+            padding-top: 80px;
+          }
+          #news-tips .news .text h2 a:hover{
+           
+            transition:all ease-in 5s ;
+            -webkit-transition:all ease-in 5s ;
+            -moz-transition:all ease-in 5s ;
+            -ms-transition:all ease-in 5s ;
+            -o-transition:all ease-in 5s ;
+            text-decoration: none; 
+}
+          #news-tips .news .text p{
+            font-size: 16px;
+            line-height: 50px;
+          }
+          #news-tips .news .text div a{
+            text-decoration: none;
+            color: black;
+            font-size: 25px;
+            border: 3px solid yellow;
+            padding: 20px 35px 20px 35px;
+            background-color: yellow;
+            margin: 10px 0 40px 0;
+            text-transform: uppercase;
+            border-radius: 30px;
+            -webkit-border-radius: 30px;
+            -moz-border-radius: 30px;
+            -ms-border-radius: 30px;
+            -o-border-radius: 30px;
+}
+          #news-tips .news .text div a:hover{
+            background-color: aliceblue;
+            color: rgb(107, 107, 19);
+            transition: all ease-in-out 1s;
+            -webkit-transition: all ease-in-out 1s;
+            -moz-transition: all ease-in-out 1s;
+            -ms-transition: all ease-in-out 1s;
+            -o-transition: all ease-in-out 1s;
+}          
+#news-tips .cir{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+#news-tips .cir .cir-r{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+text-transform: uppercase;}
+   #news-tips{
+    margin-bottom: 100px;
+   }
+           /* news and tips end */
+/* contact start */
+.details #contacts .head{
+   padding: 100px 0 10px ;
+   height: 250px;
+}
+.details #contacts .head h1{
+    padding: 0px 0 0px 0 ;
+    position: relative;
+}
+.details #contacts .head ::after{
+    position: absolute;
+    content: "";
+    left: 44%;
+    width: 110px;
+    height: 5px;
+    top: 140%;
+    background-color: black;
+   }
+#contacts .contact-form form{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+#contacts .contact-form form .name{
+    width: 500px;
+    height: 50px;
+    border: 3px solid black;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: blue;
+    padding-left: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#contacts .contact-form form .massage{
+    width: 700px;
+    height: 200px;
+    border: 10px double black;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+    
+#contacts .contact-form form .submit{
+    width: 800px;
+    height: 100px;
+    border: 5px solid yellow;
+    font-size: 40px;
+    background-color: yellow;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: green;
+    padding-left: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#contacts .contact-form form .submit:hover{
+    background-color: aliceblue;
+    color:rgb(71, 63, 63);
+    transition: all ease-in-out .9s;
+    -webkit-transition: all ease-in-out .9s;
+    -moz-transition: all ease-in-out .9s;
+    -ms-transition: all ease-in-out .9s;
+    -o-transition: all ease-in-out .9s;
+}
+#contacts .add{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 100px 0 0 0;
+gap: 10px;
+}
+#contacts .add p{
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 300;
+}
+#contacts .add h3{
+    margin: 0;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 700;
+}
+#contacts .mail{
+    text-align: center;
+    padding:100px 0 0 0 ;
+}
+#contacts .mail a{
+   
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(63, 47, 47);
+    text-decoration: rgb(32, 32, 15);
+
+}
+/* contact end */
+
+    
+                                       
